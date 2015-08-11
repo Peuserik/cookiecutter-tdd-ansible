@@ -10,7 +10,11 @@ provisioner:
   sudo: true
 
 platforms:
-  - name: centos-6.6
+  - name: Ben/sles12
+  - name: webhippie/opensuse-13.2
+
+verifier:
+  ruby_bindir: '/usr/bin'
 
 suites:
  - name: default
