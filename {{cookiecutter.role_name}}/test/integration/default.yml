@@ -6,4 +6,4 @@
   user: root
 
   roles:
-    - {{ cookiecutter.role_name }}
+    - workspace
